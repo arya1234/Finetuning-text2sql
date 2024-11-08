@@ -12,13 +12,13 @@ This repository is organized to support the development, optimization, and serve
 | Stage                                    | Notebook/Script                                                                                                 | Tech Stack                     |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | Serverless Deployment of Starling 7B     | [model_serve/](https://github.com/jjovalle99/DSPy-Text2SQL/tree/23a0a347db2d7515c5a28c305dacaea00d09dddc/model_serve)  | vLLM, Modal, HuggingFace       |
-| DSPy Optimization for Text2SQL           | [DSPy-Text2SQL.ipynb](https://github.com/jjovalle99/DSPy-Text2SQL/blob/23a0a347db2d7515c5a28c305dacaea00d09dddc/DSPy-Text2SQL.ipynb)     | DSPy, HuggingFace              |
+| DSPy Optimization for Text2SQL           | [Finetune-Text2SQL.ipynb](https://github.com/jjovalle99/DSPy-Text2SQL/blob/23a0a347db2d7515c5a28c305dacaea00d09dddc/DSPy-Text2SQL.ipynb)     | DSPy, HuggingFace              |
 
 ### Directory Breakdown
 - **assets/**: Contains any images or supporting assets.
 - **model_serve/**: Contains code and configurations for deploying the Starling7B model as a serverless application using vLLM and Modal.
 - **src/**: Primary source code for data preprocessing, model training, and evaluation.
-- **DSPy-Text2SQL.ipynb**: Main notebook showcasing the entire Text2SQL pipeline, from data preparation to DSPy optimization.
+- **Finetune-Text2SQL.ipynb**: Main notebook showcasing the entire Text2SQL pipeline, from data preparation to DSPy optimization.
 - **Makefile**: Script to manage dependencies and streamline model deployment.
 - **poetry.lock** and **pyproject.toml**: Dependency management files for configuring the project environment.
 
