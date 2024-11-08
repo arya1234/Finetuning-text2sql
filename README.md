@@ -1,4 +1,4 @@
-# Optimizing-Text2SQL: Optimizing Language Models for Natural Language to SQL Conversion
+# Optimizing Text2SQL: Enhancing Language Models for Natural Language to SQL Conversion
 
 ## Project Overview
 This repository demonstrates the use of DSPy to optimize a 7-billion-parameter open-source model, [Nexusflow/Starling-LM-7B-beta](https://huggingface.co/Nexusflow/Starling-LM-7B-beta), for converting natural language queries into SQL syntax (Text2SQL). The goal of this project is to test whether Starling-LM-7B, with the help of DSPy, can achieve or surpass the performance of GPT-3.5-Turbo on the Text2SQL task.
